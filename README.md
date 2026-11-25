@@ -11,7 +11,7 @@ button IDs, minus the Haptic Sense panel.
 ## Install
 
 ```sh
-git clone <this repo> mx-control && cd mx-control
+git clone https://github.com/ganesh1076/logitech-mx4_controls.git && cd logitech-mx4_controls
 ./install.sh
 ```
 
