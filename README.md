@@ -86,6 +86,12 @@ Verify yours with `sudo systemctl stop logid && sudo logid -v`.
   `journalctl -u logid -b`.
 - **The thumb wheel tap action never fires:** the MX Master 4's thumb wheel detects touch but not taps.
 
+## Updating the screenshots
+
+`tools/screenshots.py` opens the app, renders each tab to `docs/screenshots/` and closes it again.
+Add `--defaults` to show default settings instead of your own. Run it with the system Python, which has
+the GTK bindings: `/usr/bin/python3 tools/screenshots.py`.
+
 ## License
 
 [MIT](LICENSE)
