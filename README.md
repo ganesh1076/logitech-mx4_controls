@@ -8,6 +8,19 @@ Pointer speed, acceleration and natural scrolling go through GNOME's own setting
 Tested with the **MX Master 4** over Bluetooth on Ubuntu (kernel 7.0). The MX Master 3/3S use the same
 button IDs, minus the Haptic Sense panel.
 
+<p align="center">
+  <img src="docs/screenshots/buttons.png" alt="MX Control, Buttons tab: per-button actions and gestures" width="640">
+</p>
+
+<details>
+<summary>More screenshots</summary>
+
+| Scrolling | Pointer | Device |
+|---|---|---|
+| ![Scrolling tab: SmartShift, main wheel and thumb wheel](docs/screenshots/scroll.png) | ![Pointer tab: DPI and desktop pointer settings](docs/screenshots/pointer.png) | ![Device tab: battery, logid status and button IDs](docs/screenshots/device.png) |
+
+</details>
+
 ## Install
 
 ```sh
